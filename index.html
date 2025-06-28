@@ -1174,67 +1174,71 @@
         </a>
     </section>
 
-    <!-- Weather Section -->
-    <section class="weather-section section" id="weather">
-        <div class="container">
-            <h2 class="section-title fade-in">सिलवानी का मौसम</h2>
-            
-            <div class="weather-container">
-                <div class="weather-card fade-in delay-1">
-                    <div class="weather-header">
-                        <div class="weather-location">
-                            <i class="fas fa-map-marker-alt"></i> सिलवानी, मध्य प्रदेश
-                        </div>
-                        <div class="weather-date" id="current-date">
-                            तारीख लोड हो रही है...
-                        </div>
+<!-- Weather Section -->
+<section class="weather-section section" id="weather">
+    <div class="container">
+        <h2 class="section-title fade-in">सिलवानी का मौसम</h2>
+        
+        <div class="weather-container">
+            <div class="weather-card fade-in delay-1">
+                <div class="weather-header">
+                    <div class="weather-location">
+                        <i class="fas fa-map-marker-alt"></i> सिलवानी, मध्य प्रदेश
                     </div>
-                    
-                    <div class="weather-main">
-                        <div class="weather-icon" id="weather-icon">
-                            <i class="fas fa-sun"></i>
-                        </div>
-                        <div class="weather-temp" id="current-temp">
-                            --°C
-                        </div>
+                    <div class="weather-date" id="current-date">
+                        तारीख लोड हो रही है...
                     </div>
-                    
-                    <!-- <div class="weather-details">
-                        <div class="weather-detail">
-                            <i class="fas fa-temperature-high"></i>
-                            <div>
-                                <span id="feels-like">अनुभूत: --°C</span>
-                            </div>
-                        </div>
-                        <div class="weather-detail">
-                            <i class="fas fa-tint"></i>
-                            <div>
-                                <span id="humidity">नमी: --%</span>
-                            </div>
-                        </div>
-                        <div class="weather-detail">
-                            <i class="fas fa-wind"></i>
-                            <div>
-                                <span id="wind-speed">हवा: -- km/h</span>
-                            </div>
-                        </div>
-                        <div class="weather-detail">
-                            <i class="fas fa-eye"></i>
-                            <div>
-                                <span id="visibility">दृश्यता: -- km</span>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+                </div>
                 
-                <!-- <div class="weather-card fade-in delay-2"> -->
-                   
-                        <!-- Forecast items will be added by JavaScript -->
+                <div class="weather-main">
+                    <div class="weather-icon" id="weather-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="weather-temp" id="current-temp">
+                        --°C
+                    </div>
+                </div>
+                
+                <!-- Uncommented and properly closed weather-details section -->
+                <div class="weather-details">
+                    <div class="weather-detail">
+                        <i class="fas fa-temperature-high"></i>
+                        <div>
+                            <span id="feels-like">अनुभूत: -°C</span> <!-- Fixed double hyphen -->
+                        </div>
+                    </div>
+                    <div class="weather-detail">
+                        <i class="fas fa-tint"></i>
+                        <div>
+                            <span id="humidity">नमी: -%</span> <!-- Fixed double hyphen -->
+                        </div>
+                    </div>
+                    <div class="weather-detail">
+                        <i class="fas fa-wind"></i>
+                        <div>
+                            <span id="wind-speed">हवा: - km/h</span> <!-- Fixed double hyphen -->
+                        </div>
+                    </div>
+                    <div class="weather-detail">
+                        <i class="fas fa-eye"></i>
+                        <div>
+                            <span id="visibility">दृश्यता: - km</span> <!-- Fixed double hyphen -->
+                        </div>
                     </div>
                 </div>
             </div>
+            
+            <!-- Second weather card (properly commented if unused) -->
+            <!--
+            <div class="weather-card fade-in delay-2">
+                <div class="weather-forecast" id="weather-forecast">
+                    
+                </div>
+            </div>
+            -->
         </div>
-    </section>
+    </div>
+</section>
 
 
     <!-- wheater widget mayank -->
